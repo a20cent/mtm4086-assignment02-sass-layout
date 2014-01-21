@@ -364,42 +364,94 @@ h2 {
   font-size: 2.2rem;
   font-size: 22px; }
 
-p {
-  font-family: "Source Sans Pro", sans-serif; }
-
 /* -- Banner Components -- */
 .banner {
   height: 79px;
-  background: #4B4B4B; }
+  background: #4B4B4B;
+  position: fixed;
+  width: 100%;
+  top: 0; }
+
+#site-promo {
+  margin: 29px 0 30px; }
+
+.promo {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #fff;
+  text-align: center;
+  font-size: 1.250em; }
+
+.link {
+  font-weight: 700; }
+
+.link:hover {
+  text-decoration: underline;
+  cursor: pointer; }
 
 /* -- Navigation components -- */
-.main-nav ul {
-  padding: 0;
-  margin: 0; }
-.main-nav li {
-  margin-top: 1em; }
-.main-nav li:first-child {
-  margin-top: 0; }
-.main-nav a {
-  display: block;
-  background: #ececec;
-  padding: 1em;
-  text-align: center; }
-@media (min-width: 40em) {
-  .main-nav ul:before, .main-nav ul:after {
-    content: " ";
-    display: table; }
-  .main-nav ul:after {
-    clear: both; }
-  .main-nav li {
-    float: left;
-    margin-left: 1em;
+.nav-contain {
+  width: 100%;
+  position: fixed;
+  top: 79px;
+  left: 0;
+  height: 54px;
+  z-index: 999;
+  background-color: #fff;
+  border-bottom: 1px solid #d9d9d9;
+  -webkit-box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.5);
+  border-bottom-width: 0; }
+  .nav-contain ul {
+    padding: 0;
+    margin: 0; }
+  .nav-contain li {
+    margin-top: 1em; }
+  .nav-contain li:first-child {
     margin-top: 0; }
-  .main-nav li:first-child {
-    margin-left: 0; }
-  .main-nav a {
-    padding: 0.5em 1em;
-    text-align: left; } }
+  .nav-contain a {
+    display: block;
+    padding: 1em;
+    text-align: center; }
+  @media (min-width: 40em) {
+    .nav-contain ul:before, .nav-contain ul:after {
+      content: " ";
+      display: table; }
+    .nav-contain ul:after {
+      clear: both; }
+    .nav-contain li {
+      float: left;
+      margin-left: 1em;
+      margin-top: 0; }
+    .nav-contain li:first-child {
+      margin-left: 0; }
+    .nav-contain a {
+      padding: 0.5em 1em;
+      text-align: left; } }
+
+.main-nav {
+  max-width: 1280px;
+  margin: 0 auto; }
+
+.left {
+  float: left; }
+
+.right {
+  float: right; }
+
+.nav-link a {
+  color: #aaa;
+  display: inline-block;
+  text-decoration: none;
+  position: relative;
+  letter-spacing: 1px;
+  padding: 1.357em .750em 1.286em;
+  text-transform: uppercase;
+  font: .875em "lft-etica","Helvetica Neue",Helvetica,Arial,sans-serif; }
+.nav-link a:hover {
+  color: #0093cc; }
+.nav-link a:active {
+  color: #000;
+  cursor: default; }
 
 /* -- Layout Components -- */
 .container {

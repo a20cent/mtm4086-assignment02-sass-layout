@@ -1,23 +1,23 @@
 /*
 Syntax error: Undefined mixin 'clearfix'.
-        on line 8 of scss/navigation.scss, in `clearfix'
-        from line 8 of scss/navigation.scss
+        on line 20 of scss/navigation.scss, in `clearfix'
+        from line 20 of scss/navigation.scss
 
-3: 	li{ margin-top:1em; }
-4: 	li:first-child{ margin-top:0; }
-5: 	a{ display:block; background:#ececec; padding:1em; text-align:center; }
-6: 	
-7: 	@media (min-width:40em){
-8: 		ul { @include clearfix; }
-9: 		li { float:left; margin-left:1em; margin-top:0; }
-10: 		li:first-child{ margin-left:0; }
-11: 		a{ padding:0.5em 1em; text-align:left; }	
-12: 	}
-13: }
+15: 	li{ margin-top:1em;}
+16: 	li:first-child{ margin-top:0; }
+17: 	a{ display:block; padding:1em; text-align:center; }
+18: 	
+19: 	@media (min-width:40em){
+20: 		ul { @include clearfix; }
+21: 		li { float:left; margin-left:1em; margin-top:0; }
+22: 		li:first-child{ margin-left:0; }
+23: 		a{ padding:0.5em 1em; text-align:left; }	
+24: 	}
+25: }
 
 Backtrace:
-scss/navigation.scss:8:in `clearfix'
-scss/navigation.scss:8
+scss/navigation.scss:20:in `clearfix'
+scss/navigation.scss:20
 C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.13/lib/sass/tree/visitors/perform.rb:253:in `visit_mixin'
 C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.13/lib/sass/tree/visitors/base.rb:37:in `visit'
 C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.13/lib/sass/tree/visitors/perform.rb:100:in `visit'
@@ -80,4 +80,4 @@ C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.13/vendor/listen/lib/listen/adapter
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Undefined mixin 'clearfix'.\A         on line 8 of scss/navigation.scss, in `clearfix'\A         from line 8 of scss/navigation.scss\A \A 3: 	li{ margin-top:1em; }\A 4: 	li:first-child{ margin-top:0; }\A 5: 	a{ display:block; background:#ececec; padding:1em; text-align:center; }\A 6: 	\A 7: 	@media (min-width:40em){\A 8: 		ul { @include clearfix; }\A 9: 		li { float:left; margin-left:1em; margin-top:0; }\A 10: 		li:first-child{ margin-left:0; }\A 11: 		a{ padding:0.5em 1em; text-align:left; }	\A 12: 	}\A 13: }"; }
+  content: "Syntax error: Undefined mixin 'clearfix'.\A         on line 20 of scss/navigation.scss, in `clearfix'\A         from line 20 of scss/navigation.scss\A \A 15: 	li{ margin-top:1em;}\A 16: 	li:first-child{ margin-top:0; }\A 17: 	a{ display:block; padding:1em; text-align:center; }\A 18: 	\A 19: 	@media (min-width:40em){\A 20: 		ul { @include clearfix; }\A 21: 		li { float:left; margin-left:1em; margin-top:0; }\A 22: 		li:first-child{ margin-left:0; }\A 23: 		a{ padding:0.5em 1em; text-align:left; }	\A 24: 	}\A 25: }"; }

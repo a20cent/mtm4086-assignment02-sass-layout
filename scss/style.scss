@@ -11,14 +11,32 @@ $secondary-font: 'Helvetica Neue',Arial,sans-serif;
 
 body{ font-family:$secondary-font; }
 h2{font-family:$primary-font; @include font-size(22)}
-p{font-family:$primary-font;}
+
 
 /* -- Banner Components -- */
 .banner{
 	height:79px;
 	background:#4B4B4B;
+	position:fixed;
+	width:100%;
+	top:0;
 }
-
+#site-promo{
+	margin: 29px 0 30px;
+}
+.promo{
+	font-family:$primary-font;
+	color:#fff;
+	text-align:center;
+	font-size:1.250em;
+	}
+.link{
+	font-weight: 700;	
+}
+.link:hover{
+	text-decoration:underline;
+	cursor:pointer;	
+}
 
 /* -- Navigation components -- */
 @import 'navigation';
