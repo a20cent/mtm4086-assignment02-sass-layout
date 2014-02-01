@@ -14,3 +14,8 @@
 	font-size:($sizeValue / 10) + rem;
 	font-size:$sizeValue + px;
 }
+
+@mixin hover{
+  cursor:pointer;
+  color:#0093cc;
+}

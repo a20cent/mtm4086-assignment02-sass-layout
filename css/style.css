@@ -361,7 +361,37 @@ h2 {
   font-weight: bold;
   font-size: 2.313em;
   line-height: 1.027em;
-  margin-top: 0px; }
+  margin-top: 0px;
+  margin-bottom: 0; }
+
+h2:hover {
+  cursor: pointer;
+  color: #0093cc; }
+
+.smaller {
+  font-size: 1.375em; }
+
+strong {
+  font-size: 0.73em;
+  color: #606060; }
+
+p {
+  font-size: .875em;
+  color: #444;
+  margin: .250em 0 .357em; }
+
+span {
+  font-size: 0.73em;
+  color: #606060; }
+
+span:hover {
+  cursor: pointer;
+  color: #0093cc; }
+
+span:before {
+  color: #666;
+  content: '\00B7';
+  margin-right: 5px; }
 
 .small-title {
   color: #555;
@@ -486,7 +516,6 @@ body {
 .col {
   margin-top: 1em;
   padding-top: 1em;
-  border-top: 1px solid blue;
   min-height: 200px; }
   .col:first-child {
     margin-top: 0;
@@ -518,7 +547,8 @@ body {
       margin-left: 0; } }
 
 .col-3 {
-  background: blue; }
+  padding-top: 15px !important;
+  padding-bottom: 6em; }
   @media (min-width: 1007px) {
     .col-3 {
       width: 32%;
