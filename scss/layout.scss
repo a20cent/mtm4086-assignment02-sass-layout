@@ -1,13 +1,13 @@
 .container{
 	margin: 0 auto;
-	border:1px solid red;
+	padding-top:35px;
 	
 	@media (min-width:$largest-breakpoint){
 		width:40em;
 	}
 	
 	@media (min-width: 55em){
-		width:55em;	
+		width:1007px;	
 	}
 }
 
@@ -19,7 +19,7 @@
 	padding-top:1em;
 	border-top:1px solid blue;
 	min-height:200px;
-	&:first-child{ margin-top:0; padding-top:0; border:none; }
+	&:first-child{ margin-top:0; padding-top:0; }
 	
 	@media (min-width:$largest-breakpoint){
 		float:left;	
@@ -29,10 +29,19 @@
 	}
 }
 
-.col-1{ background:purple; width:100%; }
+.col-1{ width:100%; 
+	padding: 17px 0;
+	border-bottom:1px solid #ebebeb;
+}
+.plane{
+	float:left;	
+}
+.article1{
+	float: right;
+	width: 310px;	
+}
 
 .col-2{
-	background:orange;
 	@media (min-width:$largest-breakpoint){
 		width:48.75%;
 		margin-left:2.5%;

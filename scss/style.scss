@@ -9,34 +9,22 @@ $largest-breakpoint:1007px;
 $primary-font:'Source Sans Pro', sans-serif;
 $secondary-font: 'Helvetica Neue',Arial,sans-serif;
 
+h2{
+	font-family: "lft-etica","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight:bold;	
+	font-size: 2.313em;
+	line-height: 1.027em;
+	margin-top: 0px;
+}
+.small-title{
+	color: #555;
+font: 700 .688em/1.091em "lft-etica","Helvetica Neue",Helvetica,Arial,sans-serif;
+letter-spacing: 1px;
+margin: 0 0 .364em;	
+}
+
 body{ font-family:$secondary-font; }
-h2{font-family:$primary-font; @include font-size(22)}
 
-
-/* -- Banner Components -- */
-.banner{
-	height:79px;
-	background:#4B4B4B;
-	position:fixed;
-	width:100%;
-	top:0;
-}
-#site-promo{
-	margin: 29px 0 30px;
-}
-.promo{
-	font-family:$primary-font;
-	color:#fff;
-	text-align:center;
-	font-size:1.250em;
-	}
-.link{
-	font-weight: 700;	
-}
-.link:hover{
-	text-decoration:underline;
-	cursor:pointer;	
-}
 
 /* -- Navigation components -- */
 @import 'navigation';
