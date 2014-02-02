@@ -404,6 +404,11 @@ span:before {
   color: #fff;
   font-weight: 100; }
 
+.story-head {
+  font-size: 0.875em;
+  font-weight: 100;
+  color: #444; }
+
 .video-title {
   font-size: 0.938em;
   color: fff; }
@@ -581,8 +586,7 @@ body {
   background-image: url(http://static.digg.com/images/08a0e737098857b93430e928158afb1d_2_www_marquee_standard_blurred.jpeg);
   background-size: cover;
   width: 1351px;
-  height: 327px;
-  margin-bottom: 10em; }
+  height: 327px; }
 
 #videos-container {
   width: 77%;
