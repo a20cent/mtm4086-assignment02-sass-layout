@@ -399,6 +399,27 @@ span:before {
   letter-spacing: 1px;
   margin: 0 0 .364em; }
 
+.video-head {
+  font-size: 0.875em;
+  color: #fff;
+  font-weight: 100; }
+
+.video-title {
+  font-size: 0.938em;
+  color: fff; }
+
+.video-sub {
+  color: #fff; }
+
+.view {
+  float: right;
+  margin-top: -20px;
+  text-decoration: none; }
+
+.view:hover {
+  text-decoration: underline;
+  cursor: pointer; }
+
 body {
   font-family: "Helvetica Neue", Arial, sans-serif; }
 
@@ -562,3 +583,15 @@ body {
   width: 1351px;
   height: 327px;
   margin-bottom: 10em; }
+
+#videos-container {
+  width: 77%;
+  margin: 0 auto;
+  padding-top: 30px;
+  overflow: hidden; }
+
+#video-image {
+  width: 191px;
+  margin-top: 48px;
+  float: left;
+  margin: 38px 7px 0 6px; }

@@ -51,6 +51,31 @@ letter-spacing: 1px;
 margin: 0 0 .364em;	
 }
 
+.video-head{
+	font-size:0.875em;
+	color:#fff;
+	font-weight:100;
+}
+
+.video-title{
+	font-size:0.938em;
+	color:fff;
+}
+
+.video-sub{
+	color:#fff;
+}
+
+.view{
+	float: right;
+margin-top: -20px;
+text-decoration:none;
+}
+.view:hover{
+	text-decoration:underline;
+	cursor:pointer;
+}
+
 body{ font-family:$secondary-font; }
 
 
