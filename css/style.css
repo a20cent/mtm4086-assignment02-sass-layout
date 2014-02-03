@@ -425,13 +425,6 @@ span:before {
   text-decoration: underline;
   cursor: pointer; }
 
-.top-story {
-  width: 638px !important;
-  min-height: 154px !important;
-  margin-left: 0 !important;
-  padding: 20px 0 !important;
-  border-bottom: 1px solid #ebebeb; }
-
 .seth {
   float: left; }
 
@@ -447,6 +440,10 @@ span:before {
   float: left;
   margin-left: 25px;
   margin-top: 22px; }
+
+.bottom-upcoming {
+  margin-left: 0 !important;
+  margin-top: 5px; }
 
 body {
   font-family: "Helvetica Neue", Arial, sans-serif; }
@@ -622,3 +619,24 @@ body {
   margin-top: 48px;
   float: left;
   margin: 38px 7px 0 6px; }
+
+.upcoming-container {
+  float: right;
+  width: 300px;
+  height: 1520px;
+  margin-top: -1400px;
+  border-left: 1px solid #ebebeb;
+  padding-left: 29px; }
+
+.upcoming {
+  width: 300px;
+  min-height: 81px;
+  padding: 13px 0 0; }
+
+.top-story {
+  width: 638px !important;
+  min-height: 113px !important;
+  margin-left: 0 !important;
+  padding: 20px 0 !important;
+  border-bottom: 1px solid #ebebeb;
+  float: left; }

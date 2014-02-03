@@ -80,13 +80,7 @@ text-decoration:none;
 	text-decoration:underline;
 	cursor:pointer;
 }
-.top-story{
-	width:638px !important;
-	min-height:154px !important;
-	margin-left:0 !important;
-	padding:20px 0 !important;
-	border-bottom:1px solid #ebebeb;
-}
+
 .seth{
 	float:left;
 }
@@ -102,6 +96,10 @@ text-decoration:none;
 	float: left;
 margin-left: 25px;
 margin-top: 22px;
+}
+.bottom-upcoming{
+	margin-left:0 !important;
+	margin-top: 5px;
 }
 body{ font-family:$secondary-font; }
 
