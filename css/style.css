@@ -426,13 +426,27 @@ span:before {
   cursor: pointer; }
 
 .top-story {
-  width: 638px !important; }
+  width: 638px !important;
+  min-height: 154px !important;
+  margin-left: 0 !important;
+  padding: 20px 0 !important;
+  border-bottom: 1px solid #ebebeb; }
 
 .seth {
   float: left; }
 
+.number {
+  float: left;
+  font-size: 0.875em;
+  width: 27px; }
+
+.bottom {
+  font-size: 1.375em; }
+
 .bottom-article {
-  float: right; }
+  float: left;
+  margin-left: 25px;
+  margin-top: 22px; }
 
 body {
   font-family: "Helvetica Neue", Arial, sans-serif; }
@@ -594,7 +608,7 @@ body {
 #videos {
   background-image: url(http://static.digg.com/images/08a0e737098857b93430e928158afb1d_2_www_marquee_standard_blurred.jpeg);
   background-size: cover;
-  width: 1351px;
+  width: 100%;
   height: 327px; }
 
 #videos-container {
